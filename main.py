@@ -10,10 +10,10 @@ class calculate():
     def __init__(self):
         self.root = Tk()
         self.root.title("Calculator")
-        self.root.geometry("800x800")
+        self.root.geometry("585x350")
 
-        self.root.maxsize(800, 800)
-        self.root.minsize(800, 800)
+        self.root.maxsize(585, 350)
+        self.root.minsize(585, 350)
         self.root.config(bg="grey")
 
         self.resultwindow = Entry(self.root,borderwidth=5, relief=SUNKEN)
