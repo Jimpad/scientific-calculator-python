@@ -3,6 +3,7 @@
 #   Date: 17th October 2022
 #
 from tkinter import *
+import math
 
 
 class calculate():
@@ -17,7 +18,7 @@ class calculate():
         self.root.config(bg="grey")
 
         self.resultwindow = Entry(self.root,borderwidth=5, relief=SUNKEN)
-        self.resultwindow.grid(row=0,column=0,columnspan=6,pady=5)
+        self.resultwindow.grid(row=0,column=0,columnspan=8)
         self.resultwindow.config(font=("Arial", 25))
         self.resultwindow.focus_set()  # Sets focus on the input text area
 
@@ -88,7 +89,7 @@ class calculate():
         self.buttondivide.config(font=("Arial", 25))
 
         # Scientific Operations Buttons (Work in progress)
-        self.buttonlog = Button(self.root, text="log", width=3, command=lambda: self.ins('log'), relief=RAISED)
+        self.buttonlog = Button(self.root, text="log", width=3, command=lambda: self.ins('log()'), relief=RAISED)
         self.buttonlog.grid(row=1, column=4, padx=3, pady=3)
         self.buttonlog.config(font=("Arial", 25))
 
