@@ -83,7 +83,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 </div>
 
 <!-- FOOTER -->
-<div>
+<div align="center">
     <a href="https://github.com/Jimpad/scientific-calculator-python/issues">Request Feature</a>
     ·
     <a href="https://github.com/Jimpad/scientific-calculator-python/issues">Report Bug</a>
